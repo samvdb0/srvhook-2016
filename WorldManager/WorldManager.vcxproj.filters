@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Precompiled">
+      <UniqueIdentifier>{a204b348-852e-4301-b775-f4a260687597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{7bdd8921-ecac-461f-a526-281dbae57404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features">
+      <UniqueIdentifier>{3ffe107e-1c4e-427b-895b-aaaf0909bb81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Networking">
+      <UniqueIdentifier>{d49ab0e9-5f4a-4eef-8b7b-c58226b84ec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Server">
+      <UniqueIdentifier>{456fb11f-4e02-4b6e-bcb6-9b0fc7765139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO">
+      <UniqueIdentifier>{5a620490-63b7-4358-8070-0228ed9a37fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Definitions">
+      <UniqueIdentifier>{009ec827-7d71-4a49-ba32-267649d54f37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Scripting">
+      <UniqueIdentifier>{7b61351e-800f-4900-b5b6-e49332f0557b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="Templates.hpp">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Format.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Folder.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="CParserClient.hpp">
+      <Filter>Features\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="WinService.hpp">
+      <Filter>Features\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="INIFile.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="CParserZone.hpp">
+      <Filter>Features\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="SHNFile.hpp">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStore.hpp">
+      <Filter>Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Generic.h">
+      <Filter>Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="HookScript.hpp">
+      <Filter>Features\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="RankingServer.hpp">
+      <Filter>Features\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="CWMClientSessionManager.h">
+      <Filter>Features\Networking</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Precompiled</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="Globals.cpp">
+      <Filter>Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="HookScript.cpp">
+      <Filter>Features\Scripting</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

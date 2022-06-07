@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Precompiled">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{620f6f44-93e5-4ad5-a9a7-184d32989d17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features">
+      <UniqueIdentifier>{c409008e-6771-44d8-a63e-0a84008840b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Definitions">
+      <UniqueIdentifier>{52784937-a290-4947-b338-3be56b71f484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Server">
+      <UniqueIdentifier>{a6d5dfba-1178-4ca9-8172-1552d3be9734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO">
+      <UniqueIdentifier>{c75264eb-1c1d-40b3-a2b7-86a8fadb4518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Networking">
+      <UniqueIdentifier>{43023f56-b152-451c-8bcc-cbaeb4fd71a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="HashUtility.hpp">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.hpp">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Templates.hpp">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Format.hpp">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Generic.h">
+      <Filter>Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="WinService.hpp">
+      <Filter>Features\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="INIFile.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="CPFsCharacter.hpp">
+      <Filter>Features\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="CParserCharacter.hpp">
+      <Filter>Features\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="SessionWorker.h">
+      <Filter>Definitions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Precompiled</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp" />
+  </ItemGroup>
+</Project>
